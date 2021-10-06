@@ -3,7 +3,7 @@ public class Persoana {
      private String _Nume;
      private float _Cash;
      private float _Card;
-     Persoana(String Nume,float Cash,float Card)
+     public Persoana(String Nume,float Cash,float Card)
      {
          set_Nume(Nume);
          set_Cash(Cash);
