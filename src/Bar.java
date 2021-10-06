@@ -14,7 +14,6 @@ public class Bar {
    {
       for(int i=0;i<numarul_de_bauturi;++i)
       {
-         //sc = new Scanner(System.in);
          System.out.println("Nume: ");
          String st = sc.nextLine();
          System.out.println("Pret: ");
