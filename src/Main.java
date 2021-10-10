@@ -16,7 +16,7 @@ public class Main {
         int nr_b = scanner.nextInt();
         scanner.nextLine();
         Bar bar = new Bar(nr_b);
-        bar.alocarevectorBauturi();
+        bar.setBauturi();
         bar.instantiereBauturi(scanner);
         float totalul=0;
         totalul=bar.notadePlata(p,totalul);
